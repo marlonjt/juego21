@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="estilo.css">
+  <title>juego de 21</title>
+
+</head>
+
+<body bgcolor="#edf7fa">
+  <br>
+  <div class="container">
+    <div align="center">
+      <h1 class="h1"> 21 Cartas</h1>
+      <br><br><br>
+      <label id="carta1"></label>
+      <br><br><br>
+      <label id="carta2"></label>
+      <br><br><br>
+      <label id="carta3"></label>
+      <br><br><br>
+      <label id="puntaje"></label>
+      <br><br><br>
+      <button type="button" id="resp" onclick="jugador.mezclar()">Jugar</button>
+      <button type="button" id="resp" onclick="jugador.pedirCarta()">Pedir</button>
+      <button type="button" id="resp" onclick="jugador.validar()">Validar</button>
+    </div>
+  </div>
+
+  <script src="juego-21.js"></script>
+</body>
+
+</html>
